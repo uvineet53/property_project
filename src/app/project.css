@@ -1,0 +1,521 @@
+.project-PAGE {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .project-PAGE .div {
+    background-color: #ffffff;
+    height: 5480px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .project-PAGE .overlap {
+    background-image: url(https://c.animaapp.com/6KikUNbp/img/mask-group.png);
+    background-size: 100% 100%;
+    height: 561px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .project-PAGE .graystone-white {
+    height: 54px;
+    left: 508px;
+    object-fit: cover;
+    position: absolute;
+    top: 45px;
+    width: 424px;
+  }
+  
+  .project-PAGE .group {
+    height: 160px;
+    left: 404px;
+    position: absolute;
+    top: 132px;
+    width: 635px;
+  }
+  
+  .project-PAGE .group-2 {
+    height: 36px;
+    left: 50px;
+    position: absolute;
+    top: 0;
+    width: 540px;
+  }
+  
+  .project-PAGE .text-wrapper {
+    color: #ffffff;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 152px;
+  }
+  
+  .project-PAGE .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    left: 182px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 178px;
+  }
+  
+  .project-PAGE .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    left: 390px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 144px;
+  }
+  
+  .project-PAGE .p {
+    color: #ffffff;
+    font-family: "Montserrat Subrayada", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 158px;
+    white-space: nowrap;
+    width: 633px;
+  }
+  
+  .project-PAGE .footer {
+    background-color: transparent;
+    height: 400px;
+    left: 0;
+    position: absolute;
+    top: 5080px;
+    width: 1442px;
+  }
+  
+  .project-PAGE .overlap-group {
+    background-image: url(https://c.animaapp.com/6KikUNbp/img/rectangle-5.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .project-PAGE .div-wrapper {
+    height: 20px;
+    left: 404px;
+    position: absolute;
+    top: 216px;
+    width: 635px;
+  }
+  
+  .project-PAGE .text-wrapper-4 {
+    color: #0c4470;
+    font-family: "Montserrat Subrayada", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 633px;
+  }
+  
+  .project-PAGE .logo {
+    height: 57px;
+    left: 496px;
+    object-fit: cover;
+    position: absolute;
+    top: 51px;
+    width: 448px;
+  }
+  
+  .project-PAGE .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 42px;
+    left: 479px;
+    position: absolute;
+    top: 305px;
+    width: 482px;
+  }
+  
+  .project-PAGE .text {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Montserrat Subrayada", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+  }
+  
+  .project-PAGE .span {
+    color: #000000;
+    font-family: "Montserrat Subrayada", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .project-PAGE .group-3 {
+    height: 784px;
+    left: 86px;
+    position: absolute;
+    top: 638px;
+    width: 1274px;
+  }
+  
+  .project-PAGE .text-wrapper-5 {
+    color: #474747;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 48px;
+    font-weight: 800;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 607px;
+  }
+  
+  .project-PAGE .address-st-nishava {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 249px;
+    width: 556px;
+  }
+  
+  .project-PAGE .text-wrapper-6 {
+    font-weight: 600;
+  }
+  
+  .project-PAGE .text-wrapper-7 {
+    font-size: 32px;
+  }
+  
+  .project-PAGE .text-wrapper-8 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  
+  .project-PAGE .text-wrapper-9 {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 84px;
+    width: 614px;
+  }
+  
+  .project-PAGE .mask-group {
+    height: 784px;
+    left: 682px;
+    position: absolute;
+    top: 0;
+    width: 586px;
+  }
+  
+  .project-PAGE .group-4 {
+    height: 606px;
+    left: 77px;
+    position: absolute;
+    top: 1544px;
+    width: 1290px;
+  }
+  
+  .project-PAGE .text-wrapper-10 {
+    color: #474747;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 48px;
+    font-weight: 800;
+    left: 679px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 38px;
+    width: 607px;
+  }
+  
+  .project-PAGE .common-areas {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 682px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 126px;
+    width: 572px;
+  }
+  
+  .project-PAGE .text-wrapper-11 {
+    font-weight: 700;
+  }
+  
+  .project-PAGE .text-wrapper-12 {
+    font-weight: 500;
+  }
+  
+  .project-PAGE .rectangle {
+    height: 606px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 606px;
+  }
+  
+  .project-PAGE .overlap-group-wrapper {
+    height: 53px;
+    left: 682px;
+    position: absolute;
+    top: 494px;
+    width: 214px;
+  }
+  
+  .project-PAGE .overlap-group-2 {
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #000000;
+    height: 53px;
+    position: relative;
+    width: 212px;
+  }
+  
+  .project-PAGE .text-wrapper-13 {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    width: 124px;
+  }
+  
+  .project-PAGE .group-5 {
+    height: 811px;
+    left: 91px;
+    position: absolute;
+    top: 2272px;
+    width: 1266px;
+  }
+  
+  .project-PAGE .text-wrapper-14 {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 214px;
+    width: 572px;
+  }
+  
+  .project-PAGE .the-ventilation {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 686px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 200px;
+    width: 572px;
+  }
+  
+  .project-PAGE .text-wrapper-15 {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 587px;
+    width: 572px;
+  }
+  
+  .project-PAGE .image {
+    height: 79px;
+    left: 4px;
+    object-fit: cover;
+    position: absolute;
+    top: 479px;
+    width: 70px;
+  }
+  
+  .project-PAGE .img {
+    height: 73px;
+    left: 686px;
+    object-fit: cover;
+    position: absolute;
+    top: 112px;
+    width: 71px;
+  }
+  
+  .project-PAGE .image-2 {
+    height: 90px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 104px;
+    width: 74px;
+  }
+  
+  .project-PAGE .group-6 {
+    height: 53px;
+    left: 1px;
+    position: absolute;
+    top: 758px;
+    width: 214px;
+  }
+  
+  .project-PAGE .rectangle-2 {
+    height: 544px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 3204px;
+    width: 1440px;
+  }
+  
+  .project-PAGE .group-7 {
+    height: 524px;
+    left: 106px;
+    position: absolute;
+    top: 3870px;
+    width: 1235px;
+  }
+  
+  .project-PAGE .when-designing {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 185px;
+    width: 572px;
+  }
+  
+  .project-PAGE .text-wrapper-16 {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 657px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 178px;
+    width: 572px;
+  }
+  
+  .project-PAGE .group-8 {
+    height: 53px;
+    left: 0;
+    position: absolute;
+    top: 471px;
+    width: 214px;
+  }
+  
+  .project-PAGE .image-3 {
+    height: 70px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 100px;
+    width: 67px;
+  }
+  
+  .project-PAGE .image-4 {
+    height: 68px;
+    left: 657px;
+    object-fit: cover;
+    position: absolute;
+    top: 100px;
+    width: 81px;
+  }
+  
+  .project-PAGE .group-9 {
+    height: 463px;
+    left: 324px;
+    position: absolute;
+    top: 4515px;
+    width: 794px;
+  }
+  
+  .project-PAGE .text-wrapper-17 {
+    color: #474747;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 48px;
+    font-weight: 800;
+    left: 72px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 607px;
+  }
+  
+  .project-PAGE .rectangle-3 {
+    height: 376px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 87px;
+    width: 792px;
+  }
+  

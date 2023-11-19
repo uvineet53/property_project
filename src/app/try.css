@@ -1,0 +1,150 @@
+.home-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home-page .overlap-group-wrapper {
+    background-color: #ffffff;
+    height: 1024px;
+    width: 1440px;
+  }
+  
+  .home-page .overlap-group {
+    background-image: url(https://c.animaapp.com/q5aj6oWM/img/rosewood-development-millwood-04-scaled-blue-g-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .home-page .graystone-white {
+    height: 54px;
+    left: 508px;
+    object-fit: cover;
+    position: absolute;
+    top: 45px;
+    width: 424px;
+  }
+  
+  .home-page .group {
+    height: 36px;
+    left: 453px;
+    position: absolute;
+    top: 131px;
+    width: 540px;
+  }
+  
+  .home-page .text-wrapper {
+    color: #ffffff;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 152px;
+  }
+  
+  .home-page .div {
+    color: #ffffff;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    left: 182px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 178px;
+  }
+  
+  .home-page .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    left: 390px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 144px;
+  }
+  
+  .home-page .overlap {
+    border: 3px solid;
+    border-color: #ffffff;
+    border-radius: 41px;
+    height: 82px;
+    left: 1323px;
+    position: absolute;
+    top: 910px;
+    width: 82px;
+  }
+  
+  .home-page .ig-white {
+    height: 46px;
+    left: 14px;
+    object-fit: cover;
+    position: absolute;
+    top: 15px;
+    width: 46px;
+  }
+  
+  .home-page .facebook-white-wrapper {
+    border: 3px solid;
+    border-color: #ffffff;
+    border-radius: 41px;
+    height: 82px;
+    left: 1219px;
+    position: absolute;
+    top: 910px;
+    width: 82px;
+  }
+  
+  .home-page .facebook-white {
+    height: 46px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 15px;
+    width: 46px;
+  }
+  
+  .home-page .group-2 {
+    height: 110px;
+    left: 192px;
+    position: absolute;
+    top: 457px;
+    width: 1059px;
+  }
+  
+  .home-page .rosewood-building {
+    height: 62px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1057px;
+  }
+  
+  .home-page .p {
+    color: #ffffff;
+    font-family: "Montserrat Subrayada", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 212px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 81px;
+  }
+  

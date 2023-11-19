@@ -1,0 +1,321 @@
+.contact-us {
+    /* background-color: #ffffff; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .contact-us .div {
+    background-color: #ffffff;
+    height: 2066px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .contact-us .overlap {
+    background-image: url(https://c.animaapp.com/P5DKSjD1/img/mask-group.png);
+    background-size: 100% 100%;
+    height: 561px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .contact-us .group {
+    height: 36px;
+    left: 453px;
+    position: absolute;
+    top: 131px;
+    width: 540px;
+  }
+  
+  .contact-us .text-wrapper {
+    color: #ffffff;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 152px;
+  }
+  
+  .contact-us .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    left: 182px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 178px;
+  }
+  
+  .contact-us .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    left: 390px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 144px;
+  }
+  
+  .contact-us .graystone-white {
+    height: 54px;
+    left: 508px;
+    object-fit: cover;
+    position: absolute;
+    top: 45px;
+    width: 424px;
+  }
+  
+  .contact-us .group-2 {
+    height: 2px;
+    left: 404px;
+    position: absolute;
+    top: 290px;
+    width: 635px;
+  }
+  
+  .contact-us .p {
+    color: #ffffff;
+    font-family: "Montserrat Subrayada", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 633px;
+  }
+  
+  .contact-us .ellipse {
+    border: 3px solid;
+    border-color: #ffffff;
+    border-radius: 41px;
+    height: 82px;
+    left: 1323px;
+    position: absolute;
+    top: 910px;
+    width: 82px;
+  }
+  
+  .contact-us .ellipse-2 {
+    border: 3px solid;
+    border-color: #ffffff;
+    border-radius: 41px;
+    height: 82px;
+    left: 1219px;
+    position: absolute;
+    top: 910px;
+    width: 82px;
+  }
+  
+  .contact-us .text-wrapper-4 {
+    color: #474747;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 257px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 633px;
+    width: 926px;
+  }
+  
+  .contact-us .text-wrapper-5 {
+    color: #474747;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 568px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1066px;
+    width: 329px;
+  }
+  
+  .contact-us .group-3 {
+    height: 83px;
+    left: 533px;
+    position: absolute;
+    top: 805px;
+    width: 379px;
+  }
+  
+  .contact-us .text-wrapper-6 {
+    color: #474747;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 134px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 106px;
+  }
+  
+  .contact-us .text-wrapper-7 {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 44px;
+    width: 375px;
+  }
+  
+  .contact-us .group-4 {
+    height: 83px;
+    left: 602px;
+    position: absolute;
+    top: 931px;
+    width: 240px;
+  }
+  
+  .contact-us .text-wrapper-8 {
+    color: #474747;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+
+    width:258px;
+    color:#474747;
+  }
+  
+  .contact-us .text-wrapper-9 {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 44px;
+    width: 178px;
+  }
+  
+  .contact-us .text-wrapper-10 {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    left: 503px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1110px;
+    width: 430px;
+  }
+  
+  .contact-us .img {
+    height: 341px;
+    left: 90px;
+    position: absolute;
+    top: 1250px;
+    width: 1256px;
+  }
+  
+  .contact-us .overlap-group {
+    background-image: url(https://c.animaapp.com/P5DKSjD1/img/rectangle-5.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 400px;
+    left: 0;
+    position: absolute;
+    top: 1666px;
+    width: 1440px;
+  }
+  
+  .contact-us .div-wrapper {
+    height: 20px;
+    left: 404px;
+    position: absolute;
+    top: 216px;
+    width: 635px;
+  }
+  
+  .contact-us .text-wrapper-11 {
+    color: #0c4470;
+    font-family: "Montserrat Subrayada", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 633px;
+  }
+  
+  .contact-us .logo {
+    height: 57px;
+    left: 496px;
+    object-fit: cover;
+    position: absolute;
+    top: 51px;
+    width: 448px;
+  }
+  
+  .contact-us .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 42px;
+    left: 479px;
+    position: absolute;
+    top: 304px;
+    width: 482px;
+  }
+  
+  .contact-us .text {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Montserrat Subrayada", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+  }
+  
+  .contact-us .span {
+    color: #000000;
+    font-family: "Montserrat Subrayada", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
