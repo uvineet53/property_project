@@ -1,51 +1,22 @@
-"use client"
+
 import Link from "next/link";
-import { motion } from "framer-motion";
 import "../project.css";
 
 const ProjectPage = () => {
   return (
-    <motion.div
-      className="project-PAGE"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.5 }}
-    >
+    <div className="project-PAGE">
       <div className="div">
         <div className="overlap">
-          <motion.img
-            className="graystone-white"
-            alt="Graystone white"
-            src="https://c.animaapp.com/6KikUNbp/img/graystone-white-1@2x.png"
-            whileHover={{ scale: 1.1 }}
-          />
+        <Link href="/"> <img
+              className="graystone-white"
+              alt="Graystone white"
+              src="https://c.animaapp.com/6h31uVPj/img/graystone-white-1@2x.png"
+            /> </Link>
           <div className="group">
             <div className="group-2">
-              <Link href="AboutUs">
-                <motion.div
-                  className="text-wrapper"
-                  whileHover={{ scale: 1.1, color: "#ff8c00" }}
-                >
-                  About Us
-                </motion.div>
-              </Link>
-              <Link href="ContactUs">
-                <motion.div
-                  className="text-wrapper-2"
-                  whileHover={{ scale: 1.1, color: "#ff8c00" }}
-                >
-                  Contact Us
-                </motion.div>
-              </Link>
-              <Link href="Property">
-                <motion.div
-                  className="text-wrapper-3"
-                  whileHover={{ scale: 1.1, color: "#ff8c00" }}
-                >
-                  Property
-                </motion.div>
-              </Link>
+            <Link href="AboutUs"><div className="text-wrapper">About Us</div></Link>
+          <Link href="ContactUs"><div className="text-wrapper-2">Contact Us</div></Link>
+          <Link href="Property"><div className="text-wrapper-3">Property</div></Link>
             </div>
             <p className="p">DEVELOPMENTS | INTERIORS | BESPOKE PROJECTS</p>
           </div>
@@ -53,19 +24,9 @@ const ProjectPage = () => {
         <footer className="footer">
           <div className="overlap-group">
             <div className="div-wrapper">
-              <motion.p
-                className="text-wrapper-4"
-                whileHover={{ scale: 1.1, color: "#ff8c00" }}
-              >
-                DEVELOPMENTS | INTERIORS | BESPOKE PROJECTS
-              </motion.p>
+              <p className="text-wrapper-4">DEVELOPMENTS | INTERIORS | BESPOKE PROJECTS</p>
             </div>
-            <motion.img
-              className="logo"
-              alt="Logo"
-              src="https://c.animaapp.com/6KikUNbp/img/logo-1-2@2x.png"
-              whileHover={{ scale: 1.1 }}
-            />
+            <img className="logo" alt="Logo" src="https://c.animaapp.com/6KikUNbp/img/logo-1-2@2x.png" />
             <div className="flexcontainer">
               <p className="text">
                 <span className="span">
@@ -74,9 +35,7 @@ const ProjectPage = () => {
                 </span>
               </p>
               <p className="text">
-                <span className="span">
-                  Website Terms | Privacy Policy | Cookie Preferences
-                </span>
+                <span className="span">Website Terms | Privacy Policy | Cookie Preferences</span>
               </p>
             </div>
           </div>
@@ -121,12 +80,7 @@ const ProjectPage = () => {
             The exterior features a contrast of white ceramic tiles and dark gray vertical grid. The French windows
             reveal an incredible urban landscape overlooking Sofia and the Vitosha mountain as a backdrop.
           </p>
-          <motion.img
-            className="mask-group"
-            alt="Mask group"
-            src="https://c.animaapp.com/6KikUNbp/img/mask-group-1.png"
-            whileHover={{ scale: 1.1 }}
-          />
+          <img className="mask-group" alt="Mask group" src="https://c.animaapp.com/6KikUNbp/img/mask-group-1.png" />
         </div>
         <div className="group-4">
           <div className="text-wrapper-10">Details</div>
@@ -146,22 +100,10 @@ const ProjectPage = () => {
               Glass railing according to architectural detail. Designer lighting according to architectural detail.
             </span>
           </p>
-          <motion.img
-            className="rectangle"
-            alt="Rectangle"
-            src="https://c.animaapp.com/6KikUNbp/img/rectangle-9.png"
-            whileHover={{ scale: 1.1 }}
-          />
+          <img className="rectangle" alt="Rectangle" src="https://c.animaapp.com/6KikUNbp/img/rectangle-9.png" />
           <div className="overlap-group-wrapper">
             <div className="overlap-group-2">
-              <Link href="/ContactUs">
-                <motion.div
-                  className="text-wrapper-13"
-                  whileHover={{ scale: 1.1, color: "#ff8c00" }}
-                >
-                  Contact us
-                </motion.div>
-              </Link>
+            <Link href="/ContactUs"> <div className="text-wrapper-13">Contact us</div> </Link>
             </div>
           </div>
         </div>
@@ -179,49 +121,16 @@ const ProjectPage = () => {
             energy efficiency significantly reduces the building&#39;s carbon footprint.
           </p>
           <p className="text-wrapper-15">Air conditioning ducts are provided in all rooms.</p>
-          <motion.img
-            className="image"
-            alt="Image"
-            src="https://c.animaapp.com/6KikUNbp/img/image-2@2x.png"
-            whileHover={{ scale: 1.1 }}
-          />
-          <motion.img
-                        className="image"
-            alt="Image"
-            src="https://c.animaapp.com/6KikUNbp/img/image-2@2x.png"
-            whileHover={{ scale: 1.1 }}
-          />
-          <motion.img
-            className="img"
-            alt="Image"
-            src="https://c.animaapp.com/6KikUNbp/img/image-3@2x.png"
-            whileHover={{ scale: 1.1 }}
-          />
-          <motion.img
-            className="image-2"
-            alt="Image"
-            src="https://c.animaapp.com/6KikUNbp/img/image-4@2x.png"
-            whileHover={{ scale: 1.1 }}
-          />
+          <img className="image" alt="Image" src="https://c.animaapp.com/6KikUNbp/img/image-2@2x.png" />
+          <img className="img" alt="Image" src="https://c.animaapp.com/6KikUNbp/img/image-3@2x.png" />
+          <img className="image-2" alt="Image" src="https://c.animaapp.com/6KikUNbp/img/image-4@2x.png" />
           <div className="group-6">
             <div className="overlap-group-2">
-              <Link href="/ContactUs">
-                <motion.div
-                  className="text-wrapper-13"
-                  whileHover={{ scale: 1.1, color: "#ff8c00" }}
-                >
-                  Contact us
-                </motion.div>
-              </Link>
+             <Link href="/ContactUs"> <div className="text-wrapper-13">Contact us</div> </Link>
             </div>
           </div>
         </div>
-        <motion.img
-          className="rectangle-2"
-          alt="Rectangle"
-          src="https://c.animaapp.com/6KikUNbp/img/rectangle-10.png"
-          whileHover={{ scale: 1.1 }}
-        />
+        <img className="rectangle-2" alt="Rectangle" src="https://c.animaapp.com/6KikUNbp/img/rectangle-10.png" />
         <div className="group-7">
           <div className="text-wrapper-5">Advantages and comfort</div>
           <p className="when-designing">
@@ -235,41 +144,18 @@ const ProjectPage = () => {
           </p>
           <div className="group-8">
             <div className="overlap-group-2">
-              <Link href="/ContactUs">
-                <motion.div
-                  className="text-wrapper-13"
-                  whileHover={{ scale: 1.1, color: "#ff8c00" }}
-                >
-                  Contact us
-                </motion.div>
-              </Link>
+            <Link href="/ContactUs"> <div className="text-wrapper-13">Contact us</div> </Link>
             </div>
           </div>
-          <motion.img
-            className="image-3"
-            alt="Image"
-            src="https://c.animaapp.com/6KikUNbp/img/image-5@2x.png"
-            whileHover={{ scale: 1.1 }}
-          />
-          <motion.img
-            className="image-4"
-            alt="Image"
-            src="https://c.animaapp.com/6KikUNbp/img/image-6@2x.png"
-            whileHover={{ scale: 1.1 }}
-          />
+          <img className="image-3" alt="Image" src="https://c.animaapp.com/6KikUNbp/img/image-5@2x.png" />
+          <img className="image-4" alt="Image" src="https://c.animaapp.com/6KikUNbp/img/image-6@2x.png" />
         </div>
         <div className="group-9">
           <div className="text-wrapper-17">More from our projects</div>
-          <motion.img
-            className="rectangle-3"
-            alt="Rectangle"
-            src="https://c.animaapp.com/6KikUNbp/img/rectangle-11.png"
-            whileHover={{ scale: 1.1 }}
-          />
+          <img className="rectangle-3" alt="Rectangle" src="https://c.animaapp.com/6KikUNbp/img/rectangle-11.png" />
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
-export default ProjectPage;
-
+export default ProjectPage
