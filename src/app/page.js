@@ -1,45 +1,85 @@
 "use client"
-
 import Link from "next/link";
-import "./try.css"
+import { motion } from "framer-motion";
+import "./try.css";
 
-const  HomePage = () => {
-
+const HomePage = () => {
   return (
-    <div className="home-page">
+    <motion.div
+      className="home-page"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="overlap-group-wrapper">
         <div className="overlap-group">
-          <img
+          <motion.img
             className="graystone-white"
             alt="Graystone white"
             src="https://c.animaapp.com/q5aj6oWM/img/graystone-white-1@2x.png"
+            whileHover={{ scale: 1.1 }}
           />
           <div className="group">
-           <Link href="/AboutUs"><div className="text-wrapper">About Us</div></Link> 
-           <Link href="/ContactUs"> <div className="div">Contact Us</div> </Link>
-           <Link href="/Property"><div className="text-wrapper-2">Property</div></Link> 
+            <Link href="/AboutUs">
+              <motion.div
+                className="text-wrapper"
+                whileHover={{ scale: 1.1, color: "#ff8c00" }}
+              >
+                About Us
+              </motion.div>
+            </Link>
+            <Link href="/ContactUs">
+              <motion.div
+                className="div"
+                whileHover={{ scale: 1.1, color: "#ff8c00" }}
+              >
+                Contact Us
+              </motion.div>
+            </Link>
+            <Link href="/Property">
+              <motion.div
+                className="text-wrapper-2"
+                whileHover={{ scale: 1.1, color: "#ff8c00" }}
+              >
+                Property
+              </motion.div>
+            </Link>
           </div>
           <div className="overlap">
-            <img className="ig-white" alt="Ig white" src="https://c.animaapp.com/q5aj6oWM/img/ig-white@2x.png" />
+            <motion.img
+              className="ig-white"
+              alt="Ig white"
+              src="https://c.animaapp.com/q5aj6oWM/img/ig-white@2x.png"
+              whileHover={{ scale: 1.1 }}
+            />
           </div>
           <div className="facebook-white-wrapper">
-            <img
+            <motion.img
               className="facebook-white"
               alt="Facebook white"
               src="https://c.animaapp.com/q5aj6oWM/img/facebook-white@2x.png"
+              whileHover={{ scale: 1.1 }}
             />
           </div>
           <div className="group-2">
-            <img
+            <motion.img
               className="rosewood-building"
               alt="Rosewood building"
               src="https://c.animaapp.com/q5aj6oWM/img/rosewood-building-luxury-1.png"
+              whileHover={{ scale: 1.1 }}
             />
-            <p className="p">DEVELOPMENTS | INTERIORS | BESPOKE PROJECTS</p>
+            <motion.p
+              className="p"
+              whileHover={{ scale: 1.1, color: "#ff8c00" }}
+            >
+              DEVELOPMENTS | INTERIORS | BESPOKE PROJECTS
+            </motion.p>
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
-export default HomePage
+
+export default HomePage;
