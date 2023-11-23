@@ -38,21 +38,16 @@ const ContactUs = () => {
             <div className="text-wrapper-6">Email:</div>
             <div className="text-wrapper-7">enquiries@greystone.com</div>
           </div>
-          <div className="group-4">
-            <div className="text-wrapper-8 text-wrapper text-2xl font-bold text-gray-700">
-              Phone Number:
-            </div>
-            <div className="text-wrapper-9">565656565643</div>
-          </div>
+         
           <div className="text-wrapper-5">Registered Address:</div>
           <p className="text-wrapper-10">
-            22 Wycombe End, Beaconsfield, Buckinghamshire, HP9 1NB
+          71-75 Shelton Street, London, England, WC2H 9JQ
           </p> <div className="map">
           <iframe
   className="maps"
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.192431506706!2d-0.6410681235227519!3d51.60136260383488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876669f69e2594f%3A0xb916b85dfe9fd846!2sCapels%20House%2C%2022%20Wycombe%20End%2C%20Beaconsfield%20HP9%201NB%2C%20UK!5e0!3m2!1sen!2sin!4v1700583885631!5m2!1sen!2sin"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.907826319588!2d-0.12615912391896955!3d51.51490701015554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ccab37652b%3A0x22220c3f07824033!2sShop%2071%2C%20ALG%20ID%20Cards%20t%2Fa%20The%20Lanyard%2C%2075%20Shelton%20St%2C%20London%20WC2H%209JQ%2C%20UK!5e0!3m2!1sen!2sin!4v1700748897235!5m2!1sen!2sin"
   width="100%"
-  height="400"
+  height="500"
   style={{ border: 0 }}
   allowFullScreen=""
   loading="lazy"
