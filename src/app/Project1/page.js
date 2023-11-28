@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import "../project.css";
+import "./project.css";
 
 const ProjectPage = () => {
   return (
