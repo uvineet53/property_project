@@ -85,7 +85,9 @@
 }
 
 .project-details__img1{
-  max-width: 50%;
+  width: 50%;
+  max-height: 80vh;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 768px) {
@@ -93,6 +95,6 @@
     flex-direction: column;
   }
   .project-details__img1{
-    max-width: 100%;
+    width: 100%;
   }
 }

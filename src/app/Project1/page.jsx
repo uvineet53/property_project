@@ -1,8 +1,8 @@
-
 import "./project.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import CarouselSlider from "../components/CarouselSlider";
 
 const ProjectPage = () => {
   return (
@@ -39,15 +39,20 @@ const ProjectPage = () => {
             </p>
             <br />
             <p className="project-details__address">
-              <span className="project-details__label">Address:</span><br /> st.
-              Nishava 97, nbhd. Strelbishte, Sofia <br /><br />
-              <span className="project-details__label">Type:</span><br /> Residential
-              building <br /><br />
+              <span className="project-details__label">Address:</span>
+              <br /> st. Nishava 97, nbhd. Strelbishte, Sofia <br />
+              <br />
+              <span className="project-details__label">Type:</span>
+              <br /> Residential building <br />
+              <br />
               <span className="project-details__label">
                 Level of completion:
-              </span><br />
-              Rough construction <br /><br />
-              <span className="project-details__label">Year:</span><br /> 2024
+              </span>
+              <br />
+              Rough construction <br />
+              <br />
+              <span className="project-details__label">Year:</span>
+              <br /> 2024
             </p>
           </div>
           <img
@@ -56,6 +61,8 @@ const ProjectPage = () => {
             alt="Rectangle"
           />
         </div>
+
+        <CarouselSlider projectFolder="Project1" length={30} />
 
         <div className="project-details__section">
           <img
@@ -74,21 +81,20 @@ const ProjectPage = () => {
             <br />
             <p className="project-details__staircase">
               <span className="project-details__label">Staircase:</span>{" "}
-              Finished with first-quality granite tiles. <br /> 
-              Glass railing according
-              to architectural detail. <br /> Designer lighting according to
-              architectural detail.
+              Finished with first-quality granite tiles. <br />
+              Glass railing according to architectural detail. <br /> Designer
+              lighting according to architectural detail.
             </p>
             <Link href="/ContactUs">
               <div className="project-details__link">Contact us</div>
             </Link>
           </div>
         </div>
-
+       
         <h2 className="project-details__title">Heating and Ventilation</h2>
         <br />
         <div className="project-details__section">
-          <div style={{ flex: "1"}}>
+          <div style={{ flex: "1" }}>
             <div>
               <img
                 className="project-details__logo"
@@ -117,7 +123,7 @@ const ProjectPage = () => {
             </Link>
           </div>
 
-          <div style={{ flex: "1"}}>
+          <div style={{ flex: "1" }}>
             <img
               className="project-details__logo"
               src="https://c.animaapp.com/6KikUNbp/img/image-3@2x.png"
@@ -145,47 +151,50 @@ const ProjectPage = () => {
         <h2 className="project-details__title">Advantages and Comfort</h2>
         <br />
         <div className="project-details__section">
-          
-            <div className="project-details__description">
-              <img
-                className="project-details__logo"
-                src="https://c.animaapp.com/6KikUNbp/img/image-5@2x.png"
-                alt="Image"
-              />
+          <div className="project-details__description">
+            <img
+              className="project-details__logo"
+              src="https://c.animaapp.com/6KikUNbp/img/image-5@2x.png"
+              alt="Image"
+            />
 
-              <p>
-                When designing "Nishava Residence", a key priority was to
-                provide residents with the advantage of natural day-night
-                cycles. French windows flood all homes with daylight.
-              </p>
-              <Link href="/ContactUs">
-                <div className="project-details__link">Contact us</div>
-              </Link>
-            </div>
-            <div className="project-details__description">
-              <img
-                className="project-details__logo"
-                src="https://c.animaapp.com/6KikUNbp/img/image-6@2x.png"
-                alt="Image"
-              />
+            <p>
+              When designing "Nishava Residence", a key priority was to provide
+              residents with the advantage of natural day-night cycles. French
+              windows flood all homes with daylight.
+            </p>
+            <Link href="/ContactUs">
+              <div className="project-details__link">Contact us</div>
+            </Link>
+          </div>
+          <div className="project-details__description">
+            <img
+              className="project-details__logo"
+              src="https://c.animaapp.com/6KikUNbp/img/image-6@2x.png"
+              alt="Image"
+            />
 
-              <p>
-                Few people realize that sound is one of the biggest sources of
-                stress in the city. External noises are minimized thanks to
-                high-quality double-glazed windows and a ventilated facade.
-              </p>
-            </div>
-          
+            <p>
+              Few people realize that sound is one of the biggest sources of
+              stress in the city. External noises are minimized thanks to
+              high-quality double-glazed windows and a ventilated facade.
+            </p>
+          </div>
         </div>
 
-        <div className="project-details" style={{alignItems: "center"}}>
-          <h2 className="project-details__title" style={{textAlign: "center"}}>More from Our Projects</h2>
+        <div className="project-details" style={{ alignItems: "center" }}>
+          <h2
+            className="project-details__title"
+            style={{ textAlign: "center" }}
+          >
+            More from Our Projects
+          </h2>
           <br />
           <img
             className="project-details__rectangle"
             src="https://imgur.com/QNMewpo.png"
             alt="Rectangle"
-            style={{width: "80vw", maxHeight: "50vh", objectFit: "cover"}}
+            style={{ width: "80vw", maxHeight: "50vh", objectFit: "cover" }}
           />
         </div>
       </div>

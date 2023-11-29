@@ -3,6 +3,7 @@ import "./project.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import CarouselSlider from "../components/CarouselSlider";
 
 const ProjectPage = () => {
   return (
@@ -56,6 +57,7 @@ const ProjectPage = () => {
             alt="Rectangle"
           />
         </div>
+        <CarouselSlider projectFolder="Project4" length={40} />
 
         <div className="project-details__section">
           <img

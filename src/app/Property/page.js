@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 let images = [
   {url:"https://imgur.com/Irx8nfS.png",page:"/Project1"},
-  {url:"https://imgur.com/NZcNyep.png",page:"/Project2"},
+  {url:"https://imgur.com/XekvsZX.png",page:"/Project2"},
   {url:"https://imgur.com/dCMN8JH.png",page:"/Project3"},
   {url:"https://imgur.com/U11o1qR.png",page:"/Project4"},
 ];
