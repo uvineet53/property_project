@@ -190,12 +190,14 @@ const ProjectPage = () => {
             More from Our Projects
           </h2>
           <br />
+          <Link href="/Project2">
           <img
             className="project-details__rectangle"
             src="https://imgur.com/QNMewpo.png"
             alt="Rectangle"
             style={{ width: "80vw", maxHeight: "50vh", objectFit: "cover" }}
           />
+          </Link>
         </div>
       </div>
 

@@ -183,12 +183,15 @@ const ProjectPage = () => {
         <div className="project-details" style={{alignItems: "center"}}>
           <h2 className="project-details__title" style={{textAlign: "center"}}>More from Our Projects</h2>
           <br />
+          <Link href="/Project3">
           <img
             className="project-details__rectangle"
             src="https://imgur.com/XekvsZX.png"
             alt="Rectangle"
             style={{width: "80vw", maxHeight: "50vh", objectFit: "cover"}}
           />
+          </Link>
+          
         </div>
       </div>
 
