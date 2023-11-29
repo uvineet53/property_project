@@ -9,7 +9,7 @@ const CarouselSlider = ({ projectFolder, length }) => {
 
   return (
     <div className="carousel__div">
-      <h2>PROJECT IMAGES</h2>
+      <h2>PROPERTY IMAGES</h2>
       <br />
       <Carousel
         autoPlay={true}
