@@ -52,7 +52,7 @@ const ProjectPage = () => {
           </div>
           <img
             className="project-details__img1"
-            src="https://c.animaapp.com/6KikUNbp/img/mask-group-1.png"
+            src="https://imgur.com/GuS0crp.png"
             alt="Rectangle"
           />
         </div>
@@ -60,7 +60,7 @@ const ProjectPage = () => {
         <div className="project-details__section">
           <img
             className="project-details__img1"
-            src="https://c.animaapp.com/6KikUNbp/img/rectangle-9.png"
+            src="https://imgur.com/U1qk9zN.png"
             alt="Rectangle"
           />
 
@@ -138,7 +138,7 @@ const ProjectPage = () => {
 
         <img
           className="project-details__cover__img"
-          src="https://c.animaapp.com/6KikUNbp/img/rectangle-10.png"
+          src="https://imgur.com/2FK0K8n.png"
           alt="Rectangle"
         />
 
@@ -183,7 +183,7 @@ const ProjectPage = () => {
           <br />
           <img
             className="project-details__rectangle"
-            src="https://imgur.com/XekvsZX.png"
+            src="https://imgur.com/QNMewpo.png"
             alt="Rectangle"
             style={{width: "80vw", maxHeight: "50vh", objectFit: "cover"}}
           />

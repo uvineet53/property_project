@@ -17,6 +17,8 @@
     height: 7vmin;
   }
   .footer__text{
+    display: flex;
+    text-align: center;
     margin-top: 1rem;
     color:#0D426C;
     font-weight: 500;

@@ -4,10 +4,10 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 let images = [
-  {url:"https://c.animaapp.com/29Yj1tFZ/img/rectangle-6-1.png",page:"/Project1"},
-  {url:"https://c.animaapp.com/29Yj1tFZ/img/rectangle-7-1.png",page:"/Project2"},
-  {url:"https://c.animaapp.com/29Yj1tFZ/img/rectangle-6.png",page:"/Project3"},
-  {url:"https://c.animaapp.com/29Yj1tFZ/img/rectangle-7.png",page:"/Project4"},
+  {url:"https://imgur.com/Irx8nfS.png",page:"/Project1"},
+  {url:"https://imgur.com/NZcNyep.png",page:"/Project2"},
+  {url:"https://imgur.com/dCMN8JH.png",page:"/Project3"},
+  {url:"https://imgur.com/U11o1qR.png",page:"/Project4"},
 ];
 const ProjectProperty = () => {
   return (
