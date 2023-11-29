@@ -81,7 +81,6 @@
 .project-details__cover__img{
  margin-bottom: 4rem;
  max-height: 60vh;
- object-fit: cover;
 }
 
 .project-details__img1{
