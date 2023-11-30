@@ -30,18 +30,15 @@ const ProjectPage = () => {
       <div className="project-details">
         <div className="project-details__section">
           <div className="project-details__text">
-            <h2 className="project-details__title">About Nishava Residence</h2>
+            <h2 className="project-details__title">1 Bed Townhouse in Harare,Zimbabwe</h2>
             <p className="project-details__description">
-              The exterior features a contrast of white ceramic tiles and dark
-              gray vertical grid. The French windows reveal an incredible urban
-              landscape overlooking Sofia and the Vitosha mountain as a
-              backdrop.
+            This stunning apartment is situated in the historical suburbs of Arcadia, Harare nearby Hillside and St Martins. This apartment has a lot to offer such as luxurious Smart TV, DSTV, unlimited high-speed WiFi and free parking at the property. This apartment has a lovely homely feel to it and it is well furnished. It is suitable for friends, partners and for business and leisure travellers to unwind.
             </p>
             <br />
             <p className="project-details__address">
               <span className="project-details__label">Address:</span>
-              <br /> st. Nishava 97, nbhd. Strelbishte, Sofia <br />
-              <br />
+              <br /> Harare, Harare Province, Zimbabwe<br />
+              {/* <br />
               <span className="project-details__label">Type:</span>
               <br /> Residential building <br />
               <br />
@@ -52,7 +49,7 @@ const ProjectPage = () => {
               Rough construction <br />
               <br />
               <span className="project-details__label">Year:</span>
-              <br /> 2024
+              <br /> 2024 */}
             </p>
           </div>
           <img
@@ -71,18 +68,17 @@ const ProjectPage = () => {
           />
 
           <div className="project-details__text">
-            <h2 className="project-details__title">Details</h2>
+            <h2 className="project-details__title">The Space</h2>
             <br />
             <p className="project-details__common-areas">
-              <span className="project-details__label">Common areas:</span>{" "}
-              Finished with first-quality granite tiles.
+              {/* <span className="project-details__label">Common areas:</span>{" "} */}
+              The apartment has spacious bedrooms and lounge with modern finishes and amenities for the international travellers. The kitchen is fully equipped. Toiletries (bath soap, toilet roll, cleaning chemicals) are provided at check-in and guests will replace when they run out. Weekly cleaning and change of linen is standard. Additional cleaning requirements will be charged extra and paid directly to the cleaning staff.
+The apartment has a backup water tank fitted with a booster pump is installed to provide uninterrupted water supply.
             </p>
             <br />
             <p className="project-details__staircase">
-              <span className="project-details__label">Staircase:</span>{" "}
-              Finished with first-quality granite tiles. <br />
-              Glass railing according to architectural detail. <br /> Designer
-              lighting according to architectural detail.
+              <span className="project-details__label">Other things to note:</span>{" "}
+              Smoking inside the apartment is prohibited. Should you want to smoke, you can use the garden. However, please dispose of cigarette buts in a responsible manner
             </p>
             <Link href="/ContactUs">
               <div className="project-details__link">Contact us</div>

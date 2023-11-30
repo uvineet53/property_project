@@ -31,24 +31,23 @@ const ProjectPage = () => {
       <div className="project-details">
         <div className="project-details__section">
           <div className="project-details__text">
-            <h2 className="project-details__title">About Nishava Residence</h2>
+            <h2 className="project-details__title">Spacious Newly Refurshied 1 Bed Apartment</h2>
             <p className="project-details__description">
-              The exterior features a contrast of white ceramic tiles and dark
-              gray vertical grid. The French windows reveal an incredible urban
-              landscape overlooking Sofia and the Vitosha mountain as a
-              backdrop.
+            This flat is situated in The Avenues, which is the inner city suburbs of Harare. The well-known National Gallery of Zimbabwe is less than 1 kilometre from the flat. This flat has plenty to offer such as luxurious 24-hour security service, Smart TV, DSTV, unlimited high-speed WiFi and free parking at the property. This apartment has a lovely homely feel to it, it is well furnished and newly refurbished. It is suitable for friends, partners and for business and leisure travellers to unwind.
             </p>
+            <p><span className="font-semibold">Other things to note</span><br/>
+Smoking inside the apartment is prohibited. Should you want to smoke, you can use the garden. However, please dispose of cigarette but in a responsible manner.</p>
             <br />
             <p className="project-details__address">
-              <span className="project-details__label">Address:</span><br /> st.
-              Nishava 97, nbhd. Strelbishte, Sofia <br /><br />
-              <span className="project-details__label">Type:</span><br /> Residential
+              <span className="project-details__label">Address:</span><br />
+              Harare, Harare Province, Zimbabwe <br /><br />
+              {/* <span className="project-details__label">Type:</span><br /> Residential
               building <br /><br />
               <span className="project-details__label">
                 Level of completion:
               </span><br />
               Rough construction <br /><br />
-              <span className="project-details__label">Year:</span><br /> 2024
+              <span className="project-details__label">Year:</span><br /> 2024 */}
             </p>
           </div>
           <img
@@ -70,17 +69,18 @@ const ProjectPage = () => {
             <h2 className="project-details__title">Details</h2>
             <br />
             <p className="project-details__common-areas">
-              <span className="project-details__label">Common areas:</span>{" "}
-              Finished with first-quality granite tiles.
+              {/* <span className="project-details__label"></span>{" "} */}
+              The apartment has spacious bedrooms and lounge with modern finishes and amenities for the international travellers. The kitchen is fully equipped. Toiletries (bath soap, toilet roll, cleaning chemicals) are provided at check-in and guests will replace when they run out. Weekly cleaning and change of linen is standard. Additional cleaning requirements will be charged extra and paid directly to the cleaning staff.
+The apartment has a backup water tank fitted with a booster pump which has has been installed to provide uninterrupted water supply.
             </p>
-            <br />
+            {/* <br />
             <p className="project-details__staircase">
               <span className="project-details__label">Staircase:</span>{" "}
               Finished with first-quality granite tiles. <br /> 
               Glass railing according
               to architectural detail. <br /> Designer lighting according to
               architectural detail.
-            </p>
+            </p> */}
             <Link href="/ContactUs">
               <div className="project-details__link">Contact us</div>
             </Link>

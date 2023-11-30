@@ -31,24 +31,20 @@ const ProjectPage = () => {
       <div className="project-details">
         <div className="project-details__section">
           <div className="project-details__text">
-            <h2 className="project-details__title">About Nishava Residence</h2>
+            <h2 className="project-details__title">2 Bed Apartment Harare, Zimbabwe</h2>
             <p className="project-details__description">
-              The exterior features a contrast of white ceramic tiles and dark
-              gray vertical grid. The French windows reveal an incredible urban
-              landscape overlooking Sofia and the Vitosha mountain as a
-              backdrop.
+            Come and enjoy comfort in our recently renovated 2-bedroom Avondale flat. Situated in the peaceful residential suburb to the north and northwest of Harare, just 3.5km from the city centre, this cosy space is 5km away from the Museum of Human Sciences. With 24-hour security, a Smart TV, DSTV, high-speed WiFi, and complimentary parking, it's perfect for friends, couples, and both business and leisure travellers. Welcome to your tranquil 2-bedroom retreat!
             </p>
             <br />
             <p className="project-details__address">
-              <span className="project-details__label">Address:</span><br /> st.
-              Nishava 97, nbhd. Strelbishte, Sofia <br /><br />
-              <span className="project-details__label">Type:</span><br /> Residential
+              <span className="project-details__label">Address:</span><br /> Harare, Harare Province, Zimbabwe<br /><br />
+              {/* <span className="project-details__label">Type:</span><br /> Residential
               building <br /><br />
               <span className="project-details__label">
                 Level of completion:
               </span><br />
               Rough construction <br /><br />
-              <span className="project-details__label">Year:</span><br /> 2024
+              <span className="project-details__label">Year:</span><br /> 2024 */}
             </p>
           </div>
           <img
@@ -67,20 +63,21 @@ const ProjectPage = () => {
           />
 
           <div className="project-details__text">
-            <h2 className="project-details__title">Details</h2>
+            <h2 className="project-details__title">The Space:</h2>
             <br />
             <p className="project-details__common-areas">
-              <span className="project-details__label">Common areas:</span>{" "}
-              Finished with first-quality granite tiles.
+            This spacious 2-bedroom apartment features generously sized bedrooms and a modern lounge equipped with amenities tailored for international travellers. The fully equipped kitchen ensures a hassle-free experience. Upon check-in, you'll find toiletries like bath soap, toilet roll, and cleaning supplies.
+
+For larger groups, there's a comfortable sofa bed, accommodating 2 extra guests. We offer weekly cleaning and a linen change as standard, with additional cleaning available at an extra cost, payable directly to our cleaning staff.
             </p>
-            <br />
+            {/* <br />
             <p className="project-details__staircase">
               <span className="project-details__label">Staircase:</span>{" "}
               Finished with first-quality granite tiles. <br /> 
               Glass railing according
               to architectural detail. <br /> Designer lighting according to
               architectural detail.
-            </p>
+            </p> */}
             <Link href="/ContactUs">
               <div className="project-details__link">Contact us</div>
             </Link>

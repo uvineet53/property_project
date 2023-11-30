@@ -30,18 +30,19 @@ const ProjectPage = () => {
       <div className="project-details">
         <div className="project-details__section">
           <div className="project-details__text">
-            <h2 className="project-details__title">About Nishava Residence</h2>
+            <h2 className="project-details__title">Luxurious Villa with a Pool</h2>
             <p className="project-details__description">
-              The exterior features a contrast of white ceramic tiles and dark
-              gray vertical grid. The French windows reveal an incredible urban
-              landscape overlooking Sofia and the Vitosha mountain as a
-              backdrop.
+            Situated in Pretoria, Luxurious Villa with a Pool features accommodation with a private pool. This property offers access to a balcony and free private parking. The property is non-smoking and is set 14 km from Pretoria Country Club.
+
+With free WiFi, this 5-bedroom villa offers a flat-screen TV, a washing machine and a fully equipped kitchen with a fridge.
+
+University of Pretoria is 17 km from the villa, while Union Buildings is 19 km away. The nearest airport is Wonderboom Airport, 29 km from Luxurious Villa with a Pool.
             </p>
             <br />
             <p className="project-details__address">
               <span className="project-details__label">Address:</span>
-              <br /> st. Nishava 97, nbhd. Strelbishte, Sofia <br />
-              <br />
+              <br /> Henry Street, 0054 Pretoria, South Africa <br />
+              {/* <br />
               <span className="project-details__label">Type:</span>
               <br /> Residential building <br />
               <br />
@@ -52,7 +53,7 @@ const ProjectPage = () => {
               Rough construction <br />
               <br />
               <span className="project-details__label">Year:</span>
-              <br /> 2024
+              <br /> 2024 */}
             </p>
           </div>
           <img
@@ -72,19 +73,20 @@ const ProjectPage = () => {
           />
 
           <div className="project-details__text">
-            <h2 className="project-details__title">Details</h2>
+            {/* <h2 className="project-details__title">Details</h2> */}
             <br />
-            <p className="project-details__common-areas">
-              <span className="project-details__label">Common areas:</span>{" "}
-              Finished with first-quality granite tiles.
+            <p className="project-details__common-areas "
+            >
+              {/* <span className="project-details__label">Common areas:</span>{" "} */}
+              This villa is situated in the East of Pretoria, the well-known Ditsong Sammy Marks Museum is less than 5 kilometre from the villa. The villa has plenty to offer such 24-hour security in the estate, Smart TV, DSTV, unlimited high-speed WiFi and garage parking at the property. The villa has a beautiful homely feel to it with a large pool in the garden. It is suitable for large families, friends, business groups and leisure travellers to unwind.
             </p>
-            <br />
+            {/* <br />
             <p className="project-details__staircase">
               <span className="project-details__label">Staircase:</span>{" "}
               Finished with first-quality granite tiles. <br />
               Glass railing according to architectural detail. <br /> Designer
               lighting according to architectural detail.
-            </p>
+            </p> */}
             <Link href="/ContactUs">
               <div className="project-details__link">Contact us</div>
             </Link>
