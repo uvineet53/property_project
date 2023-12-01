@@ -1,5 +1,6 @@
 // CarouselSlider.js
 "use client";
+<<<<<<< HEAD
 import React, { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the styles
@@ -51,14 +52,31 @@ const CarouselSlider = ({ projectFolder, length }) => {
         ))}
       </Swiper>
       {/* <Carousel
+=======
+import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the styles
+import "./carousel.css";
+const CarouselSlider = ({ projectFolder, length }) => {
+  const images = Array.from({ length: length }, (_, index) => index + 1); // Assuming there are 5 images
+
+  return (
+    <div className="carousel__div">
+      <h2>PROPERTY IMAGES</h2>
+      <br />
+      <Carousel
+>>>>>>> origin/main
         autoPlay={true}
         swipeable={true}
         showStatus={false}
         showArrows={true}
         showIndicators={false}
+<<<<<<< HEAD
         showThumbs={false}
         useKeyboardArrows={true}
         infiniteLoop={true}
+=======
+>>>>>>> origin/main
         className="project-details__carousel"
       >
         {images.map((index) => (
@@ -70,7 +88,11 @@ const CarouselSlider = ({ projectFolder, length }) => {
             />
           </div>
         ))}
+<<<<<<< HEAD
       </Carousel> */}
+=======
+      </Carousel>
+>>>>>>> origin/main
     </div>
   );
 };
